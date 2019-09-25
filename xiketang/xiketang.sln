@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang", "xiketang\xiketang.csproj", "{64D36878-1A4F-4BB0-8CC9-5E1ACBD9B048}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.对象得继承", "xiketang\1.对象得继承.csproj", "{64D36878-1A4F-4BB0-8CC9-5E1ACBD9B048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.CSharp高级编程与三层架构设计", "1.CSharp高级编程与三层架构设计", "{EE5C825F-F9F0-40D1-84E2-D5006F7F4B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64D36878-1A4F-4BB0-8CC9-5E1ACBD9B048} = {EE5C825F-F9F0-40D1-84E2-D5006F7F4B07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9DC2C4E-01FA-4FE6-B8CC-00AA648948A2}
