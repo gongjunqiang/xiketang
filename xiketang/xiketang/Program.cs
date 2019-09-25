@@ -10,6 +10,7 @@ namespace xiketang
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello world");
         }
     }
 }
