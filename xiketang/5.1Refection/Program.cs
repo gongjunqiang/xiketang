@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using FiveDesignModelAndFactory;
 
-namespace FiveDesignModelAndFactory
+namespace _5._1Refection
 {
     static class Program
     {
@@ -17,7 +16,7 @@ namespace FiveDesignModelAndFactory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPrint());
+            Application.Run(new FrmCalc());
         }
     }
 }
