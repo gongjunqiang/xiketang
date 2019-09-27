@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,17 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IDAL0\IDAL0.csproj">
       <Project>{6aad9f19-5724-4a5e-bc23-ab517e43cece}</Project>
       <Name>IDAL0</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Models0\Models0.csproj">
-      <Project>{6f6f3c5d-c03d-4908-8114-d44e3756a016}</Project>
-      <Name>Models0</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

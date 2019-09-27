@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Access\Helper\AccessHelper.cs" />
+    <Compile Include="Access\StudentClassService.cs" />
+    <Compile Include="Access\StudentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLServer\Helper\SQLHelper.cs" />
+    <Compile Include="SQLServer\StudentClassService.cs" />
+    <Compile Include="SQLServer\StudentService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IDAL0\IDAL0.csproj">
@@ -54,10 +60,6 @@
       <Name>Models0</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Access\" />
-    <Folder Include="Orcle\" />
-    <Folder Include="SQLServer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
